@@ -6,7 +6,7 @@ const SplashScreen = () => {
   return (
     <View style={styles.container}>
       <Logo />
-      <View style={{height: 37}} />
+      <View style={{height: 30}} />
       <Text style={styles.textTitle}>Naya Food</Text>
     </View>
   );
@@ -22,6 +22,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   textTitle: {
+    fontFamily: 'Poppins-SemiBold',
     color: '#FFFFFF',
     fontSize: 32,
   },
