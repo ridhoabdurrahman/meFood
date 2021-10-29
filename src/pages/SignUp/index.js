@@ -27,7 +27,12 @@ const index = ({navigation}) => {
         <Gap height={16} />
         <TextInput label="Password" placeholder="Type your Password" />
         <Gap height={24} />
-        <Button text="Continue" color="#0075FF" textColor="#FFFFFF" />
+        <Button
+          text="Continue"
+          color="#0075FF"
+          textColor="#FFFFFF"
+          onPress={() => navigation.navigate('SignUpAddress')}
+        />
       </View>
     </View>
   );
